@@ -54,4 +54,6 @@ class Setting {
 
 $user = new User(1, 'doggo92', '123456');
 $getSetting = new Setting('dog', 18, 'doggo@mail.com', $user);
+
+var_dump($getSetting->getSetting());
 ?>
